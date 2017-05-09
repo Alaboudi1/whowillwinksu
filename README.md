@@ -17,11 +17,15 @@
 <p>
 الموقع تم بنائه أستناداً على معمارية <a href="https://en.wikipedia.org/wiki/Multitier_architecture">Multitier_architecture</a>:
 <ul>
-<li><strong> Client Side: </strong> </li>
-<li><strong> Server Side: </strong> </li>
-<li><strong>Databsee: </strong> </li>
-
-
+<li><strong> Client Side: </strong> HTML5, CSS3 and Javascript 2015/2016 </li>
+<li><strong> Server Side: PHP 5 </strong> </li>
+<li><strong>Databsee: MYSQL </strong> </li>
 </ul>
+</p>
+<h1>
+كيفية تحميل وتشغيل الموقع في سيرفير محلي لديك
+</h1>
+<p>
+قريباً...
 </p>
 </div>
