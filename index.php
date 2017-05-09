@@ -13,7 +13,7 @@
       <script>
          const lock = new Auth0Lock('KboeNyt4_yis5dVEQ5CSR4VYqEKRh_n5', 'whowillwin.auth0.com', {
              auth: {
-                 redirectUrl: "https://whowillwinksu.herokuapp.com"
+                 redirectUrl: "http://localhost"
              }
          });
       </script>
