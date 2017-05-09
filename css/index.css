@@ -1,0 +1,162 @@
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    opacity: 0.75;
+    z-index: -1;
+}
+.hint {
+    border-bottom: 1px dotted black;
+}
+.container {
+    margin: auto;
+    max-width: 915px;
+    max-height: 500px;
+    height: 500px;
+    overflow: auto;
+}
+.title {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 125px;
+    margin-bottom: 5px;
+    color: black
+}
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.table td {
+    width: 200px;
+    padding: 10px;
+}
+.table tr {
+    border-bottom: 5px solid blue;
+    background-color: rgba(250, 250, 250, 0.6);
+    color: #4CAF50;
+}
+.table tr img {
+      height: 120px;
+    width: 150px;
+}
+.login {
+    text-align: center;
+    font-size: 3em;
+    margin-top: 10px;
+    color: black
+}
+select {
+    font-size: 35px;
+    padding-bottom: 7px
+}
+.loader {
+    border: 9px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 9px solid #3498db;
+    width: 20px;
+    height: 20px;
+    animation: spin 2s linear infinite;
+    margin: auto;
+    padding: 10px;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.hide {
+    display: none;
+}
+
+.profile img{
+    border-radius: 60%; 
+    height:75px
+}
+
+ .profile .logout {
+    font-size: 50px;
+    color: white;
+    margin: -20px 0px 10px 0px
+}
+ .profile a{
+    color: white;
+    }
+ .profile a: visited{
+    color: white;
+    }
+button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 23px;
+}
+
+button:hover {
+    background-color: rgba(10, 150, 64, 0.8);
+    cursor: pointer;
+}
+.close {
+    width: 20px;
+}
+
+.close:hover {
+    cursor: pointer;
+    width: 23px;
+}
+.error {
+    width: 550px;
+    height: 100px;
+    background-color: red;
+    opacity: .7;
+    color: white;
+    margin: 10px auto;
+    font-size: 2em;
+    text-align: center;
+}
+.logo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    overflow: auto;
+}
+@media screen and (max-width: 700px) {
+    .profile iamge{
+        height:50px
+    }
+    .logo{
+        width: 220px;
+    }
+    .title{
+        font-size: 2.5em;
+    }
+   .table tr img{
+        width: 55px;
+        height: 70px;
+    }
+
+    .container {
+        max-width: 410px;
+        max-height: 250px;
+    }
+    .hint {
+        border-bottom: 1px dotted black;
+    }
+    select {
+        font-size: .5em;
+        padding: 0px;
+    }
+    button {
+        padding: 8px 30px 4px 30px;
+        font-size: 17px
+    }
+    .back {
+        font-size: 35px;
+    }
+}
